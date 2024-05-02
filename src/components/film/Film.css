@@ -1,0 +1,15 @@
+.film {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+
+.film:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
